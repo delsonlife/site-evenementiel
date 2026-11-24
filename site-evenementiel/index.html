@@ -60,8 +60,8 @@ h1{font-size:clamp(2.3rem,5vw,4rem);margin-bottom:22px}
 .stats .wrap{display:grid;grid-template-columns:repeat(4,1fr)}
 .stats .wrap>div{padding:34px 24px;border-left:1px solid var(--line)}
 .stats .wrap>div:first-child{border-left:0;padding-left:0}
-.stats strong{display:block;font-size:2.5rem;color:var(--gd)}
-.stats span{color:var(--mut)}
+.stats strong{display:block;white-space:nowrap;font-size:clamp(1.9rem,5vw,2.5rem);line-height:1.1;margin-bottom:8px;color:var(--gd)}
+.stats span{display:block;max-width:24ch;line-height:1.45;color:var(--mut)}
 section{padding:96px 0}
 h2{font-size:clamp(1.9rem,3.4vw,2.8rem);margin-bottom:18px}
 .intro{color:var(--mut);max-width:46ch}
@@ -99,7 +99,8 @@ footer p{margin-bottom:4px}
 .hero .wrap,.split,footer .wrap,.band{grid-template-columns:1fr;gap:36px}
 .arches{height:300px}
 .stats .wrap,.steps{grid-template-columns:repeat(2,1fr)}
-.stats .wrap>div{border-left:0;padding-left:0;border-top:1px solid var(--line)}
+.stats .wrap>div{border-left:0;padding:24px 12px 24px 0;border-top:1px solid var(--line)}
+.stats .wrap>div:nth-child(-n+2){border-top:0}
 .vals,.gal{grid-template-columns:1fr}
 section{padding:64px 0}
 .band{padding:40px 28px}
@@ -131,7 +132,7 @@ section{padding:64px 0}
 <div class="arch a3"></div>
 </div>
 </div></section>
-<div class="stats"><div class="wrap"><div><strong>Sur mesure</strong><span>selon votre style et votre budget</span></div><div><strong>1 interlocuteur</strong><span>dédié à votre événement</span></div><div><strong>Du devis au jour J</strong><span>un suivi complet</span></div><div><strong>7 j / 7</strong><span>disponibilité par téléphone et WhatsApp</span></div></div></div>
+<div class="stats"><div class="wrap"><div><strong>100 %</strong><span>sur mesure, selon votre style et votre budget</span></div><div><strong>1</strong><span>interlocuteur dédié à votre événement</span></div><div><strong>A à Z</strong><span>du devis au jour J, un suivi complet</span></div><div><strong>7 j / 7</strong><span>disponibilité par téléphone et WhatsApp</span></div></div></div>
 <section><div class="wrap"><h2>Une décoration qui change tout</h2><p class="intro">Tables, fleurs, lumière : chaque détail est pensé pour vous ressembler.</p><div class="gal" style="--c:2"><figure><div class="ph"><svg viewBox="0 0 400 300" role="img" aria-label="Illustration d’une table de réception"><rect width="400" height="300" fill="#eef7f2"/><rect y="226" width="400" height="74" fill="#fbe9d5"/><path d="M0 36Q200 96 400 36" fill="none" stroke="#13261d" stroke-width="2"/><circle cx="60" cy="58" r="6" fill="#F77F00"/><circle cx="130" cy="74" r="6" fill="#ffb14d"/><circle cx="200" cy="78" r="6" fill="#F77F00"/><circle cx="270" cy="74" r="6" fill="#ffb14d"/><circle cx="340" cy="58" r="6" fill="#F77F00"/><path d="M50 190v58a150 38 0 0 0 300 0v-58z" fill="#f4f1ea"/><ellipse cx="200" cy="190" rx="150" ry="40" fill="#fff"/><ellipse cx="110" cy="190" rx="28" ry="8" fill="#cfe9dc"/><ellipse cx="290" cy="190" rx="28" ry="8" fill="#cfe9dc"/><ellipse cx="200" cy="212" rx="28" ry="8" fill="#cfe9dc"/><rect x="198" y="128" width="4" height="56" fill="#00774c"/><circle cx="200" cy="116" r="20" fill="#F77F00"/><circle cx="178" cy="134" r="15" fill="#ffb14d"/><circle cx="222" cy="134" r="15" fill="#F77F00"/><ellipse cx="170" cy="156" rx="6" ry="14" fill="#009E60" transform="rotate(-50 170 156)"/><ellipse cx="230" cy="156" rx="6" ry="14" fill="#009E60" transform="rotate(50 230 156)"/><rect x="140" y="152" width="8" height="30" fill="#fff" stroke="#13261d"/><ellipse cx="144" cy="146" rx="4" ry="7" fill="#F77F00"/><rect x="252" y="152" width="8" height="30" fill="#fff" stroke="#13261d"/><ellipse cx="256" cy="146" rx="4" ry="7" fill="#F77F00"/></svg><img src="https://images.unsplash.com/photo-1516018074042-bc17b7da5f6d?auto=format&fit=crop&q=70&w=900" alt="Table dressée pour un mariage avec fleurs et couverts" loading="lazy" onerror="this.remove()"></div><figcaption><h3>La décoration de table</h3><p>Des tables élégantes, fleuries et pensées dans les moindres détails.</p></figcaption></figure><figure><div class="ph"><svg viewBox="0 0 400 300" role="img" aria-label="Illustration d’une arche de cérémonie"><rect width="400" height="300" fill="#fff7ec"/><rect y="250" width="400" height="50" fill="#e6f1ea"/><circle cx="330" cy="62" r="26" fill="#F77F00"/><path d="M130 250V150a70 70 0 0 1 140 0v100" fill="none" stroke="#00774c" stroke-width="10"/><circle cx="132" cy="236" r="9" fill="#F77F00"/><circle cx="132" cy="196" r="11" fill="#ffb14d"/><circle cx="134" cy="160" r="9" fill="#009E60"/><circle cx="146" cy="126" r="11" fill="#F77F00"/><circle cx="172" cy="108" r="9" fill="#ffb14d"/><circle cx="200" cy="102" r="11" fill="#009E60"/><circle cx="228" cy="108" r="9" fill="#F77F00"/><circle cx="254" cy="126" r="11" fill="#ffb14d"/><circle cx="266" cy="160" r="9" fill="#009E60"/><circle cx="268" cy="196" r="11" fill="#F77F00"/><circle cx="268" cy="236" r="9" fill="#ffb14d"/><path d="M160 252L190 160h20l30 92z" fill="#F77F00" opacity=".85"/><rect x="60" y="226" width="24" height="26" rx="4" fill="#13261d"/><rect x="92" y="226" width="24" height="26" rx="4" fill="#13261d"/><rect x="284" y="226" width="24" height="26" rx="4" fill="#13261d"/><rect x="316" y="226" width="24" height="26" rx="4" fill="#13261d"/></svg><img src="https://images.unsplash.com/photo-1562050147-fda1cc9a6378?auto=format&fit=crop&q=70&w=900" alt="Fleurs blanches et bougie sur une table de fête" loading="lazy" onerror="this.remove()"></div><figcaption><h3>L’ambiance</h3><p>Lumière douce, fleurs et bougies pour une réception inoubliable.</p></figcaption></figure></div></div></section>
 <section><div class="wrap split">
 <div><h2>Nos prestations</h2><p class="intro">De la première idée à la dernière danse, une équipe qui s’occupe de tout.</p></div>
